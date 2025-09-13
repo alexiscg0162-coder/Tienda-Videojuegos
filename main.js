@@ -83,3 +83,5 @@ async function getDatos() {
         throw new Error("No se pudo hacer la petición" + error)
     }
 })(); 
+
+console.log("Hola Alex"); 

@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tienda de ropa">
+    <meta name="description" content="Tienda de Videojuegos">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <title>Tienda Videojuegos</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
      rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
     crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="./Img/consola-de-video.png" type="image/x-icon">
 </head>
@@ -20,7 +21,8 @@
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="#" style="color: #7ca5d3;">Navbar</a>
+            <a class="icono-marca" href="#" style="color: #7ca5d3;">Alexs</a>
+            <img src="img/consola-de-video.png" alt="icono de la marca" class="icono-marca">
 
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 
@@ -28,6 +30,7 @@
 
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNav">
             <h1>TIENDA VIDEOJUEGOS</h1>
 
@@ -37,7 +40,7 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#">Contactanos</a>
               </li>
 
               <li class="nav-item">
@@ -45,20 +48,16 @@
               </li>
 
               <li class="nav-item">
-
                 <a class="nav-link" href="#"><img src="./Img/carro-de-la-compra.png" alt="imagen del carrito" srcset="" class="icono-carrito"
-
                     id="carrito"></a>
-
                 <span class="carrito-count" id="carrito-count">0</span>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-
         </header>
-
+        
         <section class="carousel">
            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
   <div class="carousel-inner">
@@ -67,11 +66,11 @@
     </div>
 
     <div class="carousel-item">
-      <img src="./Img/leagueoflegends.webp" class="d-block w-100" alt="...">
+      <img src="./Img/atardecer-paseo-en-caballo-red-dead-redemption_3840x2160_xtrafondos.com.jpg" class="d-block w-100" alt="...">
     </div>
 
     <div class="carousel-item">
-      <img src="./Img/12a0444a662450a4f8e0d3140a4d13de7a0b26477384e7ed.avif" class="d-block w-100" alt="...">
+      <img src="./Img/594461.png" class="d-block w-100" alt="...">
     </div>
 
   </div>
@@ -89,13 +88,13 @@
 </section>
 
 <section class="container-fluid">
-    <h2 style="text-align: center;">Destacados</h2>
+    <h2 style="text-align: center; margin-top: 30px;">Juegos de la Semana</h2>
     <div class="row">
         <div class="card productos">
-            <img src="./Img/Hollow_Knight_first_cover_art.webp" class="card-img-top" alt="...">
+            <img src="./Img/Hollow_Knight_first_cover_art.webp" class="card-img-top" alt="..." >
             <div class="card-body">
                 <h5 class="card-title text-center"> Hollow Knight</h5>
-                <p class="card-text precio">$450.000</p>
+                <p class="card-text precio">$400.000</p>
                 <button href="#" class="btn btn-primary center" data-id="1">Agregar al carrito</button>
             </div>
         </div>
@@ -104,7 +103,7 @@
             <img src="./Img/leagueoflegends.webp" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">League Of Legends</h5>
-                <p class="card-text precio">$120.000</p>
+                <p class="card-text precio">$100.000</p>
                 <button href="#" class="btn btn-primary" data-id="2">Agregar al carrito</button>
             </div>
         </div>
@@ -120,8 +119,40 @@
     </div>
 </section>
 
+<section class="container-fluid-mas-vendidos">
+  <h2 style="text-align: center; margin-top: 30px;">VideoJuegos mas vendidos</h2>
+  <div class="row">
+      <div class="card productos">
+          <img src="./Img/Hollow_Knight_first_cover_art.webp" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title text-center"> Hollow Knight</h5>
+              <p class="card-text precio">$400.000</p>
+              <button href="#" class="btn btn-primary center" data-id="1">Agregar al carrito</button>
+          </div>
+      </div>
+
+      <div class="card productos">
+          <img src="./Img/FIFA.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">FIFA</h5>
+              <p class="card-text precio">$100.000</p>
+              <button href="#" class="btn btn-primary" data-id="2">Agregar al carrito</button>
+          </div>
+          
+      </div>
+           <div class="card productos">
+          <img src="./Img/1366_2000.jpeg" class="card-img-top andrea" alt="...">
+          <div class="card-body">
+              <h5 class="card-title">GTA</h5>
+              <p class="card-text precio">$450.000</p>
+              <button href="#" class="btn btn-primary" data-id="3">Agregar al carrito</button>
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+
 <section>
-  <!-- Carrito -->
       <div class="mostrar-carrito container">
         <table id="productos" class="table">
           <thead>
@@ -129,25 +160,20 @@
               <th scope="col">Nombre</th>
               <th scope="col">Precio</th>
               <th scope="col">Cantidad</th>
-              <th scope="col"></th>
             </tr>
 
           </thead>
-
           <tbody>
-
-
           </tbody>
-
         </table>
 
       </div>
-      <!-- Cierre Carrito -->
+
 
 </section>
   <footer class="container-fluid">
 
-<!-- Aqui va el footer -->
+
  <p>AlexCG&copy;
     <br>
     AlexCG@gmail.com
